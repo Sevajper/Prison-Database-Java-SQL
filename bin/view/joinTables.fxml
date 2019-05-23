@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane dividerPositions="0.8678815489749431" minHeight="441.0" minWidth="700.0" orientation="VERTICAL" prefHeight="441.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.JoinTablesController">
+   <items>
+    <AnchorPane fx:id="prisonersAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="206.0" prefWidth="700.0">
+   <children>
+      <TableView fx:id="jt" layoutY="-1.0" prefHeight="441.0" prefWidth="700.0">
+        <columns>
+          <TableColumn fx:id="prisonerIDColumn" prefWidth="117.0" text="Prisoner ID" />
+          <TableColumn fx:id="nameColumn" prefWidth="136.0" text="Name" />
+          <TableColumn fx:id="ageColumn" prefWidth="63.0" text="Age" />
+          <TableColumn fx:id="sexColumn" prefWidth="93.0" text="Sex" />
+          <TableColumn fx:id="offenceColumn" prefWidth="141.0" text="Offence" />
+          <TableColumn fx:id="sentenceColumn" minWidth="0.0" prefWidth="149.0" text="Sentence" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
+      <AnchorPane minHeight="0.0" minWidth="700.0" prefHeight="55.0" prefWidth="700.0" />
+   </items>
+</SplitPane>

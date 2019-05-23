@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="mainBorderPane" maxHeight="550.0" maxWidth="700.0" minHeight="550.0" minWidth="700.0" prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindow">
+   <top>
+      <AnchorPane minHeight="55.0" minWidth="700.0" prefHeight="93.0" prefWidth="700.0">
+         <children>
+            <Button fx:id="prisonStaffBtn" layoutX="60.0" layoutY="15.0" mnemonicParsing="false" onAction="#openPrisonStaffTable" prefHeight="30.0" prefWidth="100.0" text="PRISON STAFF" AnchorPane.topAnchor="12.0" />
+            <Button fx:id="visitorBtn" layoutX="220.0" layoutY="15.0" mnemonicParsing="false" onAction="#openVisitorsTable" prefHeight="30.0" prefWidth="100.0" text="VISITORS" AnchorPane.topAnchor="12.0" />
+            <Button fx:id="prisonersBtn" layoutX="380.0" layoutY="15.0" mnemonicParsing="false" onAction="#openPrisonersTable" prefHeight="30.0" prefWidth="100.0" text="PRISONERS" AnchorPane.topAnchor="12.0" />
+            <Button fx:id="offencesBtn" layoutX="540.0" layoutY="15.0" mnemonicParsing="false" onAction="#openOffencesTable" prefHeight="30.0" prefWidth="100.0" text="OFFENCES" AnchorPane.topAnchor="12.0" />
+            <Button fx:id="joinButton" layoutX="60.0" layoutY="54.0" mnemonicParsing="false" onAction="#openJoinTable" prefHeight="25.0" prefWidth="121.0" text="Join on Offences" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
